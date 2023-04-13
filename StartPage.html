@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="StartPage.css" />
+    <link rel="stylesheet" href="StartPage2.css" />
+    <link rel="stylesheet" href="navMenu.css" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="StartPage.js" defer></script>
+    <title>Why Vancouver?</title>
+  </head>
+  <body>
+    <!-- START OF NAVBAR -->
+    <header>
+      <figure class="brand"><img  src="Image/title1.png" style="width:70%" /></figure>
+      <nav class="navMenu">
+          <input type="checkbox" id="menuToggle">
+          <label for="menuToggle" class="menu-icon"><i class="fa fa-bars"></i></label>
+          <ul >
+            <li><a href="StartPage.html" style="font-size: 1.5rem;">Home</a></li>
+            <li><a href="#contact" style="font-size: 1.5rem;">Contact</a></li>
+            <li><a href="AboutUs.html" style="font-size: 1.5rem;">About Us</a></li>
+          </ul>
+      </nav>
+  </header>
+    <!-- END OF NAVBAR -->
+
+    <!-- START OF HEADER -->
+    <div class="header">
+      <ul class="cb-slideshow">
+        <li><span>Image 01</span></li>
+        <li><span>Image 02</span></li>
+        <li><span>Image 03</span></li>
+        <li><span>Image 04</span></li>
+        <li><span>Image 05</span></li>
+        <li><span>Image 06</span></li>
+      </ul>
+      <div class="header_content">
+        <div class="word">
+          <div class="why">W h y</div>
+          <div class="vancouver">V a n c o u v e r ?</div>
+        </div>
+
+        <!-- <p class="text_header">
+          Vancouver is a Canadian city known for its mix of urban and natural
+          features. It has popular attractions and waterfront landmarks, and
+          there are many interesting facts about the city worth learning before
+          visiting.
+        </p> -->
+        <br />
+
+        <!--  -->
+
+        <!-- Vancouver is the largest city in western Canada and is located in the province of British Columbia. An interesting fact about Vancouver is that the Metro Vancouver area is home to 14 of the 30 largest cities in British Columbia. -->
+        <div class="ex_button">
+          <a href="#content" class="explore" >Explore...</a>
+        </div>
+      </div>
+    </div>
+    <!-- END OF HEADER -->
+
+    <!-- OPTIONS -->
+
+        <div id="content" class="what2">
+            What do you<br />
+            want to explore?
+        </div>
+      <div class="menuContainer" style="font-size: 1.2rem;">
+        <div class="menu menu1 space">
+          <a href="Food.html" class="button" style="font-size: 1.2rem;">Food</a>
+        </div>
+        <div class="menu menu2">
+          <a href="Tourist.html" class="button" style="font-size: 1.2rem;"> Tourist Spot </a>
+        </div>
+        <div class="menu menu3">
+          <a href="Activities.html" class="button" style="font-size: 1.2rem;"> Activities </a>
+        </div>
+        <div class="menu menu4">
+          <a href="AboutUs.html" class="button" style="font-size: 1.2rem;"> About Us </a>
+        </div>
+      </div>
+
+    <!-- END OF OPTIONS -->
+
+    <!-- CONTACT -->
+    <div id="contact">
+      <div class="contact_content">
+        <div class="contact_us">Questions? Message Us!</div>
+        <form class="form1" onsubmit="return false" action="https://formspree.io/f/xpzelkqk" method="POST" >
+          <div class="form2">
+            <div class="f1">
+              <input type="text" id="fname" name="fname" placeholder="Name" />
+            </div>
+            <div class="f2">
+              <input type="text" id="email" name="email" placeholder="Email" required />
+            </div>
+          </div>
+          <input type="text" id="message" name="message" placeholder="Message" required />
+        
+          <input type="submit" value="Submit" onclick="submitForm(this.form)" />
+        </form>
+        
+      </div>
+    </div>
+    <!-- END OF CONTACT -->
+
+    <!-- FOOTER -->
+
+    <div class="footer">
+      <div class="row1">
+        <img src="Image/title.png" />
+        <p class="text_footer">
+          Vancouver was named after Captain George Vancouver, an English
+          explorer who is well-known for leading the expedition that mapped a
+          significant portion of the Pacific Northwest, including the region
+          that eventually became the city of Vancouver.
+        </p>
+        <ul class="logolink">
+          <li>
+            <a
+              href="https://www.facebook.com/CityofVancouver/"
+              class="facebook"
+            >
+              <img
+                src="Image/facebook.png"
+                alt="facebook"
+                height="24"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/company/city-of-vancouver/"
+              class="linkedin"
+            >
+              <img
+                src="Image/linkedin.png"
+                alt="linkedin"
+                height="24"
+            /></a>
+          </li>
+
+          <li>
+            <a href="https://twitter.com/CityofVancouver" class="twitter">
+              <img src="Image/twitter.png" alt="twitter"  height="24"
+            /></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="row2">
+        <div class="textrightfooter">Contact Us</div>
+
+        <div class="row2content">
+          <div class="image-with-text">
+            <img src="Image/tel.png" alt="tel" width="40" style="float: left" />
+            <p style=" color: rgba(255, 255, 255, 0.7);">Telephone</p>
+          </br>
+            <p style="font-weight: 400 ;">: +1 (672) 5140302</p>
+          </div>
+
+          <div class="image-with-text">
+            <img
+              src="Image/email.png"
+              alt="email"
+              width="40"
+              style="float: left; margin-left: 1px"
+            />
+            <p style=" color: rgba(255, 255, 255, 0.7)">Email</p>
+            <p>: info@whyvancouver.com</p>
+          </div>
+
+          <div class="image-with-text">
+            <img
+              src="Image/address.png"
+              alt="address"
+              width="40"
+              style="float: left; margin-right: 0px"
+            />
+            <p  style=" color: rgba(255, 255, 255, 0.7)">Address</p>
+              <p>: Vancouver, British Columbia Canada</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
