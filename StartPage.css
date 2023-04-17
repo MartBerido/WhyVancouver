@@ -19,6 +19,13 @@ body {
   flex-direction: column;
 }
 
+.mLogo {
+  height: 8vh;
+}
+.eLogo {
+  height: 6vh;
+}
+
 .navbar {
   display: none;
   justify-content: space-between;
@@ -228,7 +235,7 @@ a {
 
 /* CONTACT */
 .contact_content {
-  height: 50vh;
+  height: 100%;
   padding-top: 3rem;
 }
 .contact_us {
@@ -292,16 +299,17 @@ select {
 
 /* Style the submit button */
 input[type="submit"] {
-  width: 30%;
+  width: 40%;
   background-color: orange;
   color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+  padding: 12px 5px;
+  margin: 30px 5px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 3vw;
   font-weight: bold;
+  text-align: center;
 }
 
 /* Add a background color to the submit button on mouse-over */
@@ -371,8 +379,12 @@ ul > li {
   gap: 1rem;
 }
 
+.fIcon {
+  width: 5vw;
+}
+
 /* Alien edited */
-/* mobile style: */
+/* mobile style: * *********************************************************************************************/
 @media only screen and (max-width: 480px) {
   .toggle-button {
     display: flex;
